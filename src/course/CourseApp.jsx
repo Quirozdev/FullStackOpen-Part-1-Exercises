@@ -1,5 +1,4 @@
 const Header = (props) => {
-  console.log(props);
   return (
     <>
       <h1>{props.course}</h1>
@@ -40,7 +39,7 @@ const Total = (props) => {
   );
 };
 
-const App = () => {
+const CourseApp = () => {
   const course = {
     name: 'Half Stack application development',
     parts: [
@@ -68,4 +67,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default CourseApp;
